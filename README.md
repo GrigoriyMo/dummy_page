@@ -4,7 +4,6 @@
 
 ## Стек технологий
 
-- Vue.js
 - Express
 - Node.js
 
