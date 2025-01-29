@@ -1,0 +1,38 @@
+# Директории и файлы, игнорируемые Git
+
+# Node modules
+node_modules/
+
+# Локальные файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Директории сборки
+dist/
+build/
+
+# Прочие
+.DS_Store
+*.pem
+*.p12
+*.key
+*.sublime-workspace
+*.sublime-project
+.idea/
+
+# Форматирование кода
+*.js.map
+*.ts.map
+*.jsx.map
+*.tsx.map
+
+# Папка тестов
+coverage/
